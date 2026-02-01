@@ -41,7 +41,8 @@ Visualization: Ensure ensta_2015.jpg and gps_data_nmea.txt are in the root direc
 
 Bash
 python affichage.py
-📁 Repository Structure
+
+## 📁 Repository Structure
 src/acquisition.py: Serial communication and raw data logging.
 
 src/traitement.py: NMEA parsing logic.
@@ -52,7 +53,7 @@ data/gps_data_nmea.txt: Sample raw NMEA log file.
 
 docs/Report_GNSS.pdf: Full technical project report.
 
-👥 Authors
+## 👥 Authors
 Antoine BERTRAND, Samy-William AYYADA, Julien STRUILLOU & Baptiste GUIVARCHE
 
 Academic Context: Developed in 2023 at ENSTA Bretagne.
