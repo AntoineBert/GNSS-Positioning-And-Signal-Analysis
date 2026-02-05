@@ -31,7 +31,7 @@ The script includes error handling for `ParseError` to ensure robust processing 
 
 1. **Hardware:** Connect your GPS sensor to your computer.
 2. **Install Dependencies:**
-   ```bash
+Bash
    pip install pyserial pynmea2 rasterio numpy matplotlib
 Data Acquisition:
 
