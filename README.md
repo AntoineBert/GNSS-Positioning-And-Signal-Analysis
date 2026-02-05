@@ -31,17 +31,19 @@ The script includes error handling for `ParseError` to ensure robust processing 
 
 1. **Hardware:** Connect your GPS sensor to your computer.
 2. **Install Dependencies:**
-Bash
+```Bash
    pip install pyserial pynmea2 rasterio numpy matplotlib
+```
 Data Acquisition:
 
-Bash
+```Bash
 python acquisition.py
+```
 Visualization: Ensure ensta_2015.jpg and gps_data_nmea.txt are in the root directory, then:
 
-Bash
+```Bash
 python affichage.py
-
+```
 ## 📁 Repository Structure
 src/acquisition.py: Serial communication and raw data logging.
 
